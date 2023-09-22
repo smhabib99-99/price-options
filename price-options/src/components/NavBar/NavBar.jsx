@@ -17,7 +17,7 @@ const NavBar = () => {
 
 
     return (
-        <nav className="text-black bg-yellow-200 p-8">
+        <nav className="text-black bg-yellow-200 m-4 p-8">
             <div className="text-5xl md:hidden"  onClick={() => setOpen(!open)}>
                 {
                     open === true ? <AiOutlineClose></AiOutlineClose> : <AiOutlineMenu ></AiOutlineMenu>
